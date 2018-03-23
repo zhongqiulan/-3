@@ -1,0 +1,297 @@
+body,
+div,
+    /* p, */
+i,
+h1,
+h2,
+h3,
+h4,
+input,
+img,
+a,
+li,
+ul,
+span,
+strong,
+em {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2.
+h3,
+h4 {
+    font-weight: normal;
+}
+
+input {
+    border: 0 none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #565656;
+}
+
+a:hover {
+    color: #ff7219;
+}
+
+li {
+    list-style: none;
+}
+
+i,
+em,
+strong {
+    font-style: normal;
+}
+
+body {
+    font-family: "Microsoft YaHei", simSun;
+    font-size: 12px;
+    color: #565656;
+    line-height: 22px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+img {
+    border: 0 none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    min-width: 1300px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*background-color: #111111;*/
+
+}
+
+.top-bar {
+    position: fixed;
+    height: 55px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: #fbfbfb;
+}
+
+.g-clr {
+    zoom: 1;
+}
+
+.NIE-topBar {
+    position: relative;
+    z-index: 9999;
+    min-width: 1000px;
+    height: 60px;
+    /*background: #333;*/
+    line-height: 24px;
+    font-family: "Microsoft YaHei", simSun, "Lucida Grande", "Lucida Sans Unicode", Arial;
+
+    font-size: 12px;
+    font-style: normal;
+}
+
+.NIE-topBar-main.w1680 {
+    width: 1260px;
+}
+
+.NIE-topBar-main {
+    position: relative;
+    z-index: 9999;
+    width: 1000px;
+    margin: auto;
+}
+
+#NIE-topBar *, #NIE-topBar-include * {
+    text-decoration: none;
+    color: #626262;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.NIE-topBar-logo {
+    width: 133px;
+    height: 44px;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin-left: 120px;
+    margin-top: 6px;
+    position: relative;
+    z-index: 13 !important;
+    background: url("../images/logo_.png") no-repeat;
+}
+
+#NIE-topBar-news {
+    position: absolute;
+    z-index: 13;
+    width: 420px;
+    height: 54px;
+    left: 125px;
+    padding-left: 18px;
+    margin-left: 120px;
+    padding-top: 0;
+    overflow: hidden;
+    display: block;
+}
+
+#NIE-topBar *, #NIE-topBar-include * {
+    font-size: 12px;
+    font-style: normal;
+}
+
+/*#NIE-topBar-news-close {*/
+/*position: absolute;*/
+/*top: 63px;*/
+/*right: -380px;*/
+/*display: block;*/
+/*width: 32px;*/
+/*height: 32px;*/
+/*overflow: hidden;*/
+/*background: url(https://nie.res.netease.com/comm/nie.topBar/images/sprite-w_7fc7459.png) no-repeat -9999px -9999px;*/
+/*text-indent: -9999px;*/
+/*z-index: 2;*/
+/*}*/
+
+.NIE-topBar-mid {
+    z-index: 12;
+    width: 250px;
+    right: 366px;
+    width: 536px;
+
+    position: absolute;
+    z-index: 2;
+    /*right: 230px;*/
+    /*width: 385px;*/
+    text-align: right;
+}
+
+#NIE-topBar .NIE-topBar-mid a {
+    color: #333;
+    line-height: 52px;
+    cursor: pointer;
+    transition: background ease-in-out .33s;
+    padding: 0 12px;
+    /*color: #fff;*/
+    display: inline-block;
+}
+
+.NIE-topBar-right {
+    position: absolute;
+    right: 110px;
+    top: 0;
+    display: block;
+    width: 100px;
+    height: 55px;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.NIE-topBar-right a {
+    color: #333 !important;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    line-height: 52px;
+}
+
+.NIE-topBar-menu {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 138px;
+    color: #999;
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.NIE-topBar-menu span {
+    height: 25px;
+    right: 100px;
+    width: 108px;
+    padding-top: 15px;
+    transition: background ease-in-out .33s;
+    z-index: 20;
+    background: 0 0;
+    color: #bc2e2e;
+}
+
+.logo {
+    position: fixed;
+    cursor: pointer;
+    width: 188px;
+    height: 168px;
+    background: url("../images/200.webp") left center no-repeat;
+    left: 64px;
+    top: 25px;
+    z-index: 10;
+}
+
+.cont-right {
+    position: fixed;
+    right: 57px;
+    top: 62px;
+    zoom: 1;
+    z-index: 10;
+}
+
+.cont-right .index {
+    background: url("../images/index_z.png");
+    background-position: -976px -436px;
+}
+
+.cont-right a {
+
+    position: relative;
+    /*top: 10px;*/
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: block;
+    text-align: center;
+}
+
+.cont-right span {
+    position: absolute;
+    width: 100%;
+    display: block;
+    font-size: 13px;
+    color: #b6b6c4;
+    line-height: 13px;
+    bottom: -19px;
+}
+
+.swiper-container {
+    width: 100%;
+    min-width: 1300px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #999999;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}

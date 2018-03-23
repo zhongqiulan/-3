@@ -1,0 +1,362 @@
+body,
+div,
+	/* p, */
+i,
+h1,
+h2,
+h3,
+h4,
+input,
+img,
+a,
+li,
+ul,
+span,
+strong,
+em {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2.
+h3,
+h4 {
+	font-weight: normal;
+}
+
+input {
+	border: 0 none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: #565656;
+}
+
+a:hover {
+	color: #ff7219;
+}
+
+li {
+	list-style: none;
+}
+
+i,
+em,
+strong {
+	font-style: normal;
+}
+
+body {
+	font-family: "Microsoft YaHei", simSun;
+	font-size: 12px;
+	color: #565656;
+	line-height: 22px;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+img {
+	border: 0 none;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*样式代码*/
+/* 开始 */
+.lankTu ul li{
+	display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 22px;
+	margin-bottom:13px;
+}
+.lankTu ul li a{
+	display: inline-block;
+	  height: 50px;
+    line-height: 50px;
+	font:normal 900 13px "微软雅黑";
+	color: #7b7b7b;
+}
+.lankTu ul li a:hover{
+  color: #FF7219;
+}
+.lankTu ul li:nth-child(1){
+	display: inline-block;
+	font:normal 700 20px "微软雅黑";
+	color: #7b7b7b;
+	margin-right:18px;
+}
+.tuZi{
+	height:451px;
+	/*background:blue;*/
+	position:relative;
+}
+.box {
+	height:392px;
+	/*background: pink;*/
+	float: left;
+}
+.box ul{
+	height:392px;
+	width:896px;
+	/*background: yellow;*/
+	float: left;
+}
+.box ul li{
+	 height:196px;
+	 width: 215px;
+	float: left;
+	margin-right: 9px;
+	overflow: hidden;
+}
+.box ul li a{
+	display: inline-block;
+	height:196px;
+	width:215px;
+	overflow: hidden;
+}
+.fsfz {
+	display: inline-block;
+	height:140px;
+	width:215px;
+	overflow: hidden;
+}
+.box ul li a img{
+	height:140px;
+	width:215px;
+	transition: all 0.6s;
+}
+.box ul li a img:hover{
+	transform: scale(1.2);
+}
+
+
+.tuZi .desvc {
+	display: inline-block;
+	font:normal 100 13px "微软雅黑";
+	width: 215px;
+	height: 24px;
+	line-height: 24px;
+	 overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+
+
+.tuZi .jabc {
+	position: absolute;
+	width:887px;
+	height:44px;
+	background:url("../img/tutu.png")  -959px 0px;
+
+	bottom: 0px;
+	margin-top: 15px;
+}
+.tuZi .jabc .tuijian ul {
+	margin-left: 18PX;
+}
+.tuZi .jabc .tuijian ul li {
+	float: left;
+	height:44px;
+	line-height: 44px;
+	margin-right: 27px;
+}
+.tuZi .jabc .tuijian ul li:nth-child(1){
+	font:normal 100 20px "微软雅黑";
+	height:44px;
+	line-height:44px;
+	color: #565656;
+}
+.tuZi .jabc .tuijian ul li a {
+	display:inline-block;
+	height:44px;
+	line-height: 44px;
+	font:normal 100 15px "微软雅黑";
+}
+.tuZi .jabc .tuijian ul li a:hover{
+	color: #FF7219;
+}
+.tuZi .jabc .tuijian .tubiaol {
+	display: inline-block;
+	width:18px;
+	height:16px;
+	background: url("../img/xing.jpg");
+}
+.tuZi .jabc .tuijian .tubiaog {
+	display: inline-block;
+	width:20px;
+	height:15px;
+	background: url("../img/xiangji.jpg");
+}
+.tuZi .jabc .tuijian .tubiaor {
+	display: inline-block;
+	width:18px;
+	height:16px;
+	background: url("../img/zan.jpg");
+}
+.tuZi .jabc .tuijian .tubiaow {
+	display: inline-block;
+	width:19px;
+	height:19px;
+	background: url("../img/bi.jpg");
+}
+.pic{
+	height:372px;
+	width:304px;
+	/*background: red;*/
+	float:right;
+	overflow: hidden;
+	position: relative;
+}
+.pic .mm{
+position: absolute;
+	width: 299px;
+	height: 150px;
+	background:url("../img/9.jpg");
+}
+.pic .info {
+	position: absolute;
+	width: 299px;
+	height:46px;
+	background-color:#000000;
+	top: 150px;
+}
+.pic .info  .pre{
+	position: absolute;
+	width:15px;
+	height:15px;
+	background: url("../img/jl.jpg") 0px -50px;
+	top: 14px;
+	left: 18px;
+}
+.pic .info .pause{
+	position: absolute;
+	width:22px;
+	height:26px;
+	background: url("../img/jl.jpg") 1px 0px;
+	top: 11px;
+	left:129px;
+}
+.pic .info  .next{
+	position: absolute;
+	width:15px;
+	height:15px;
+	background: url("../img/jl.jpg") 0px -72px;
+	top: 14px;
+	right:19px;
+}
+.song-list {
+	position:absolute;
+	width:299px;
+	height:260px;
+	background:url("../img/tutu.png")0px -180px;
+	overflow:hidden;
+	top:191px;
+	left:896px;
+}
+.song-list ul li{
+	width: 299px;
+	height: 36px;
+	line-height: 36px;
+	overflow: hidden;
+}
+.song-list ul li em{
+	line-height:36px;
+}
+.song-list ul li a{
+	display:block;
+	width:299px;
+	height:36px;
+	line-height:36px;
+	font:normal 100 12px "微软雅黑";
+
+}
+.song-list ul li a:hover{
+	color: #FF7219;
+}
+.song-list .csvc{
+     position: absolute;
+	width: 245px;
+	height:18px;
+	/*background-color: red;*/
+	margin-left:17px;
+	border-style:dashed;
+	border-width: 1px;
+	border-color: #cacaca  transparent transparent  transparent ;
+}
+.song-list .daan {
+	position: absolute;
+	width:124px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	margin-left:18px;
+	margin-top:35px ;
+	border:solid 1px #a5a5a5;
+}
+.song-list .sfsf {
+	position: absolute;
+	width:124px;
+	height:32px;
+	line-height: 32px;
+	text-align:center;
+	margin-left:152px;
+	margin-top:35px ;
+	border:solid 1px #a5a5a5;
+}
+
+.radio {
+	display: inline-block;
+	height: 14px;
+	background:red;
+	width: 13px;
+
+}
+.hdau {
+	-webkit-animation-duration:5s;
+	-moz-animation-delay: 1s;
+	-etc-animation-iteration-count: infinite;
+}
+.lankTu>ul>li{
+	-webkit-animation-duration:3s;
+	-moz-animation-delay:1s;
+	-etc-animate-iteration-count:infinite ;
+}.hdau {
+	 -webkit-animation-duration:5s;
+	 -moz-animation-delay: 1s;
+	 -etc-animation-iteration-count: infinite;
+ }
+.lankTu>ul>li{
+	-webkit-animation-duration:3s;
+	-moz-animation-delay:1s;
+	-etc-animate-iteration-count:infinite ;
+}
+
+
+.laili {
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+

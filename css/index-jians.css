@@ -1,0 +1,266 @@
+body,
+div,
+    /* p, */
+i,
+h1,
+h2,
+h3,
+h4,
+input,
+img,
+a,
+li,
+ul,
+span,
+strong,
+em {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2.
+h3,
+h4 {
+    font-weight: normal;
+}
+
+input {
+    border: 0 none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #565656;
+}
+
+a:hover {
+    color: #ff7219;
+}
+
+li {
+    list-style: none;
+}
+
+i,
+em,
+strong {
+    font-style: normal;
+}
+
+body {
+    font-family: "Microsoft YaHei", simSun;
+    font-size: 12px;
+    color: #565656;
+    line-height: 22px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+img {
+    border: 0 none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*初始化代码结束*/
+
+.content {
+    height: 415px;
+    background-color: #fff;
+    position: relative;
+}
+.box-old {
+    height: 375px;
+    width: 260px;
+    background:url("../imgs/img-jians/old_bg_f727804.jpg") no-repeat;
+    padding: 20px 20px 20px 20px;
+    float: left;
+
+}
+.box-old ul {
+    width: 266px;
+    height: 88px;
+}
+.box-old .old-btn {
+    margin-top: 15px;
+}
+.box-old .old-btn li {
+    height: 44px;
+    width: 130px;
+    background:url("../imgs/img-jians/btn_bg_8f7edcb.png") #4a4a4a no-repeat;
+    float: left;
+    display: inline;
+    text-align: center;
+    line-height: 44px;
+    margin: 2px 3px 0 0;
+}
+.box-old .old-btn li a {
+    color: #c6c6c7;
+}
+.box-old .old-btn li:hover {
+    background-color: yellow;
+}
+.box-old .old-btn li:first-child{
+    background-position: 0 -20px;
+}
+.box-old .old-btn li:nth-child(2){
+    background-position: -34px -28px;
+}
+.box-old .old-btn li:nth-child(3){
+    background-position: -27px -49px;
+
+}
+.box-old .old-btn li:last-child{
+    background-position: -66px -110px;
+}
+.box-old .reword {
+    width: 266px;
+    height: 85px;
+    margin-top: 15px;
+}
+.box-old .tianxia {
+    width: 262px;
+    height: 140px;
+}
+.box-old .tianxia h3 {
+    display: inline;
+}
+.box-old .tianxia span {
+    width: 115px;
+    height: 25px;
+    display: inline-block;
+    border: solid 1px #a0a0a0;
+    margin-left: 58px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+
+}
+.box-old .tianxia .gundong {
+    text-align: center;
+}
+.content-2 .box-jobs-main {
+    float: left;
+    width: 600px;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+    background: url("../imgs/img-jians/jobs_bg_a597b6a.png") no-repeat 290px;
+}
+
+.content-2 .jobs-tab {
+    position: absolute;
+    top: 0;
+    height: 108px;
+    margin-top: 20px;
+}
+.content-2 .jobs-tab li {
+    float: left;
+    width: 32px;
+    height: 108px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+}
+.content-2 .jobs-tab .name-1 {
+    margin-top: 50px;
+    display: block;
+}
+.content-2 .jobs-tab .active {
+    border: 2px solid #ff7c00;
+}
+.content-2 .box-jobs-main .products {
+    height: 415px;
+    width: 600px;
+}
+.content-2 .box-jobs-main .products .mains {
+    float: left;
+   /* display: none;*/
+    margin-left: 140px;
+    margin-top: -48px;
+
+}
+.content-2 .box-jobs-main .products .mains {
+    height: 471px;
+    width: 460px;
+}
+.content-2 .box-jobs-main .products .mains .exp {
+    position: absolute;
+    top: 140px;
+    left: 26px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #525252;
+}
+.content-2 .box-jobs-main .products .mains .form{
+    position: absolute;
+    width: 197px;
+    height: 170px;
+    background: url("../imgs/img-jians/jobs_5_form_39bb638.png") no-repeat;
+    /*top: 215px;
+    left: 36px;*/
+    top: 89px;
+    left: 36px;
+}
+.content-2 .box-jobs-mains .products .selected {
+    /*display: block;*/
+    /*margin-left: 132px;
+    margin-top: -48px;*/
+
+}
+.content-2 .banner {
+    height: 415px;
+    width: 300px;
+    float: right;
+ }
+.content-2 .banner div {
+    overflow: hidden;
+}
+.content-2 .banner img{
+    transition: all 0.6s;
+}
+.content-2 .banner img:hover {
+    transform: scale(1.1);
+}
+
+.qita {
+    height: 400px;
+    width: 1200px;
+    background-color: red;
+    margin: auto;
+}
+
+
+
+
+
+/*修改代码*/
+.jians{
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

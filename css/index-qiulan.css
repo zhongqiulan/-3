@@ -1,0 +1,498 @@
+body,
+div,
+    /* p, */
+i,
+h1,
+h2,
+h3,
+h4,
+input,
+img,
+a,
+li,
+ul,
+span,
+strong,
+em {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2.
+h3,
+h4 {
+    font-weight: normal;
+}
+
+input {
+    border: 0 none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #565656;
+}
+
+a:hover {
+    color: #ff7219;
+}
+
+li {
+    list-style: none;
+}
+
+i,
+em,
+strong {
+    font-style: normal;
+}
+
+body {
+    font-family: "Microsoft YaHei", simSun;
+    font-size: 12px;
+    color: #565656;
+    line-height: 22px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+img {
+    border: 0 none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*header模块*/
+.header {
+    height: 55px;
+    background-color: #fbfbfb;
+}
+
+.header .top {
+    width: 1000px;
+    margin: 0 auto;
+    height: 55px;
+}
+
+.header .top .logo11 {
+    margin-top: 5px;
+}
+
+.header .top .logo11 a {
+    background: url("../imgs/logo.png") no-repeat;
+    height: 44px;
+    width: 133px;
+    display: inline-block;
+}
+
+.header .top .header1 {
+    background: url("../imgs/header-1.jpg") no-repeat;
+    width: 420px;
+    height: 54px;
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header .top #header2 {
+    position: fixed;
+    top: 55px;
+    left: 165px;
+    display: none;
+    z-index: 990;
+}
+
+.header .top #header2 img {
+
+    /*width: 210px;*/
+    /*height: 210px;*/
+}
+
+
+
+
+.header .side li {
+    float: left;
+    line-height: 52px;
+    font-size: 12px;
+}
+.header .side li.active {
+    background-color: #000;
+    opacity: 1;
+    border-bottom: 3px solid #ca0b0b;
+}
+
+.header .side li a {
+
+    display: inline-block;
+    /*行内块可以被父元素的行高影响位置*/
+    /*line-height: 38px;*/
+    padding: 0 12px;
+
+}
+
+.header .side li:nth-child(3) a {
+    color: #ca0b0b;
+}
+
+.header .side li:last-child a {
+    padding-right: 0;
+    /*border-bottom: 2px solid #ca0b0b;*/
+}
+/*main模块*/
+.main {
+    height: 875px;
+    background-color: #1b046b;
+    background: url("../imgs/banner.jpg") no-repeat;
+    background-position:center;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+/*二级菜单的显示*/
+.main .m-logo {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    display: block;
+    width: 173px;
+    height: 155px;
+    overflow: hidden;
+    margin: 0 0 0 -70px;
+    background: url("../imgs/200.webp") no-repeat 0 bottom;
+    text-indent: -9999px;
+    z-index: 2;
+
+}
+
+.main .wrap {
+    width: 1200px;
+    height: 183px;
+    padding-left: 10px;
+    background-image: url(../imgs/nav_bg_cff582c.png);
+}
+
+
+.main .wrap > ul > li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.main .wrap li a {
+    display: block;
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 55px;
+    display: inline-block;
+    padding: 0 10px;
+    color: #d0d0d0;
+}
+.main .wrap li a:hover {
+    color: #b25806;
+}
+
+.main .wrap li:nth-child(5) a {
+    margin-left: 150px;
+
+}
+.main .wrap .navsa {
+    margin-top: 10px;
+}
+.wrap li ul {
+    position: absolute;
+    top: 30px;
+    display: none;
+}
+/*二级菜单的显示*/
+
+
+.main #content {
+    height: 375px;
+    width: 1200px;
+    position: absolute;
+    top: 585px;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 1;
+}
+.main #content .service {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.main #content .scrollbar {
+    background: url("../imgs/scroll.png") rgba(255,255,255,0.1);
+    width: 100%;
+    height: 42px;
+}
+.main #content .scrollbar .date {
+    float: left;
+    width: 180px;
+    color: #545454;
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+
+}
+.main #content .content-box {
+    height: 315px;
+    width: 100%;
+}
+.main #content .box-left {
+    width: 300px;
+
+    height: 315px;
+}
+.main #content .box-left .download {
+    display: block;
+    height: 129px;
+    opacity: 0.5;
+}
+.main #content .box-left .download a {
+    display: block;
+    width: 300px;
+    height: 129px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../imgs/download.jpg) no-repeat;
+}
+.main #content .box-left ul {
+    height: 171px;
+    padding-top: 15px;
+    background: url(../imgs/qlink.jpg) no-repeat;
+    display: block;
+}
+.main #content .box-left li {
+    float: left;
+    display: inline;
+    width: 125px;
+    height: 33px;
+    padding: 10px 0 10px 25px;
+}
+.main #content .box-left li .link {
+    color: #fff;
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 33px;
+    background: center left url(../imgs/qlink_icon.png) no-repeat;
+    cursor: pointer;
+}
+.main #content .box-left li .link span {
+    visibility: visible;
+    position: absolute;
+    left: 10px;
+    display: block;
+    width: 100px;
+    height: 33px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    opacity: 1;
+    background-image: url("../imgs/qlink_1.png");
+}
+.main #content .box-left li .link .hover {
+    /*display: none;*/
+    background-image: url("../imgs/qlink_1_hover.png");
+
+}
+/*Jquery轮播图的地方*/
+.main #content .box-center {
+    width: 600px;
+    /*background-color: pink;*/
+    height: 315px;
+}
+.slider {
+    height: 315px;
+    width: 600px;
+    position: relative;
+}
+
+.slider ul li {
+    position: absolute;
+    display: none;
+}
+
+.slider ul li:first-child {
+    display: block;
+}
+
+.slider ol {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 15px;
+}
+
+.slider ol li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    background: url("../imgs/jd/switch_btn.png") no-repeat;
+    overflow: hidden;
+    margin-left: 5px;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 233;
+}
+
+.slider ol li.current {
+    background: url("../imgs/jd/switch_btn.png") no-repeat 0 -15px;
+}
+/*Jquery轮播图的地方*/
+
+
+.main #content .box-right {
+    /*width: 300px;*/
+    background: #202021;
+    height: 315px;
+    position: relative;
+    width: 284px;
+    padding: 0 8px 0;
+}
+.main #content .box-right .news-more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.main #content .box-right .news-more span {
+    visibility: visible;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    opacity: 1;
+    background: url(../imgs/news_more.png) no-repeat;
+}
+.main #content .box-right .news-more .hover {
+    visibility: hidden;
+    background-position: 0 -30px;
+    opacity: 0;
+}
+
+/*二级菜单栏css样式*/
+.main #content .box-right .wrapper {
+    width: 284px;
+    height: 240px;
+    margin: 0 auto;
+    /*margin-top: 100px;*/
+    overflow: hidden;
+    /*background-color: #000;*/
+}
+
+.main #content .box-right .tab {
+
+    border-top: 0;
+    width: 284px;
+    height: 48px;
+    /*border-bottom: 1px solid #818181;*/
+}
+
+.main #content .box-right .tab li {
+    position: relative;
+    float: left;
+    width: 71px;
+    height: 45px;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.main #content .box-right .tab span {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    background: #ddd;
+    width: 1px;
+    height: 14px;
+    overflow: hidden;
+}
+
+.main #content .box-right .products {
+    width: 284px;
+    height: 195px;
+}
+
+.main #content .box-right .products .main {
+    float: left;
+    display: none;
+
+}
+.main #content .box-right .products .main img {
+    width: 284px;
+    height: 195px;
+}
+
+.main #content .box-right .products .main.selected {
+    display: block;
+}
+
+.main #content .box-right .tab li.active {
+    border-color: red;
+    border-top: 0;
+}
+/*二级菜单栏css样式*/
+.main #content .box-right .search {
+    margin-top: 10px;
+    height: 22px;
+    padding: 3px 9px;
+    border: 1px solid #494a4d;
+    line-height: 22px;
+    background: #202020;
+    border-radius: 2px;
+}
+.main #content .box-right .search .search-inp {
+    float: left;
+    width: 230px;
+    height: 16px;
+    padding: 3px 0;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+    color: #d8d8d9;
+    line-height: 16px;
+}
+.main #content .box-right .search #gw-search {
+    float: right;
+    width: 22px;
+    height: 22px;
+    background: url(../imgs/search_btn.png) no-repeat center center;
+    border: 0;
+    cursor: pointer;
+}
+/*修改代码*/
+.qiulan{
+    height: 874px;
+}
